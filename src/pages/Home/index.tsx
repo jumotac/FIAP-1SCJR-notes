@@ -124,7 +124,7 @@ function Home() {
       {loading && <Loading />}
       {showModal && (
         <Modal
-          title="Nova nota"
+          title="Nova Nota"
           handleClose={() => setShowModal(false)}
           style={{ width: "100px" }}
         >
